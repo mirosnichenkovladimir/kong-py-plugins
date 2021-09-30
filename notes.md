@@ -1,2 +1,0 @@
-- kong-compose: https://github.com/abrahamjoc/docker-compose-kong-konga/blob/master/docker-compose.yml
-- https://github.com/Kong/kong-python-pdk
