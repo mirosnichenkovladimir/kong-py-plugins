@@ -39,7 +39,9 @@ services:
       - ./mount/kongadata:/app/kongadata
 
   kong:
-    image: "${KONG_DOCKER_TAG:-kong:ubuntu}"
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: kong
     user: "${KONG_USER:-root}"
     depends_on:
