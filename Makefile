@@ -5,3 +5,4 @@ kong_bash:
 .PHONY: kong_update_config
 kong_update_config:
 	docker cp kong.conf kong:/etc/kong/
+
